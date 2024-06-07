@@ -2,7 +2,7 @@ import os
 import django 
 import csv
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'smart_city.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'smarty_city.settings')
 django.setup()
 
 from app_smart.models import Sensor
